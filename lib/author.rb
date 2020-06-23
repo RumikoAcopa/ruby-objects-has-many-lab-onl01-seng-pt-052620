@@ -10,7 +10,7 @@ class Author
     #betty.post = empty array?
     # Post.all.select do |post|
     #     post.author == self
-      end
+     
   end
   
   def add_post(post)
@@ -27,4 +27,3 @@ class Author
   end
 end
   
-end
