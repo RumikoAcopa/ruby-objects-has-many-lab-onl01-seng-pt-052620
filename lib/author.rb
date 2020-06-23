@@ -8,10 +8,10 @@ class Author
   end
   
   def posts 
-    post.author = betty
+    # post.author = betty
     #betty.post = empty array?
-    # Post.all.select do |post|
-    #     post.author == self
+    Post.all.select do |post|
+        post.author == self
      
   end
   
