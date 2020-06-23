@@ -8,11 +8,8 @@ class Author
   end
   
   def posts 
-    # post.author = betty
-    #betty.post = empty array?
     Post.all.select do |post|
-        post.author == self
-     
+        post.author = self
   end
   
   def add_post(post)
