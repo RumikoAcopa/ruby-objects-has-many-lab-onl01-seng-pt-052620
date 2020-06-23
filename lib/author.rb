@@ -20,13 +20,13 @@ class Author
   #     post.author == self
   # end
   
-  def dd_post_by_title(post_title)
-        new_post = Post.new(post_title)
-        new_post.author = self
-  end
+  # def dd_post_by_title(post_title)
+  #       new_post = Post.new(post_title)
+  #       new_post.author = self
+  # end
   
-  def Author.post_title
-      Post.all.count
-  end
+  # def Author.post_title
+  #     Post.all.count
+  # end
 end
   
